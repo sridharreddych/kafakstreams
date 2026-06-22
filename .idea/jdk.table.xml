@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="25" />
+      <type value="JavaSDK" />
+      <version value="25.0.2" />
+      <homePath value="C:\Program Files\Java\jdk-25.0.2" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="resource://intellij.java.remote.roots" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.base" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.datatransfer" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.desktop" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.logging" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.management" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.prefs" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.rmi" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.scripting" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.sql" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.transaction" />
+            <root type="simple" url="jrt://C:\Program Files\Java\jdk-25.0.2!/java.xml" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</project>
+
