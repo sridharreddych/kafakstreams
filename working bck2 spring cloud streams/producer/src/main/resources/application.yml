@@ -4,23 +4,16 @@ spring:
 
   cloud:
     function:
-      definition: sendRiderLocation; sendRiderStatus
+      definition: sendRiderLocation
     stream:
       function:
-        definition: sendRiderLocation; sendRiderStatus
+        definition: sendRiderLocation
       bindings:
         sendRiderLocation-out-0:
-          destination: my-topic
+          destination: new-topic
           content-type: application/json
-          producer:
-            partitionKeyExpression: payload.riderId
-        sendRiderStatus-out-0:
-          destination: my-topic-2
-          content-type: application/json
-          producer:
-            partitionKeyExpression: payload.riderId
       poller:
-        fixed-delay: 1000
+        fixed-delay: 5000
       kafka:
         binder:
           brokers: localhost:9092

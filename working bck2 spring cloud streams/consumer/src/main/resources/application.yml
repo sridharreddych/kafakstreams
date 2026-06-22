@@ -7,16 +7,12 @@ spring:
 
   cloud:
     function:
-      definition: processRiderLocation; processRiderStatus
+      definition: processRiderLocation
 
     stream:
-      function:
-        definition: processRiderLocation; processRiderStatus
       bindings:
         processRiderLocation-in-0:
-          destination: my-topic
-        processRiderStatus-in-0:
-          destination: my-topic-2
+          destination: new-topic
       kafka:
         binder:
           brokers: localhost:9092

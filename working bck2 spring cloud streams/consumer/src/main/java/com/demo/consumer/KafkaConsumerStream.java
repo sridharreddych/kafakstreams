@@ -14,12 +14,4 @@ public class KafkaConsumerStream {
             System.out.println("Received Rider Location: " + riderLocation.getRiderId() + " Latitude: " + riderLocation.getLatitude() + " Longitude: " + riderLocation.getLongitude());
         };
     }
-
-
-    @Bean
-    public Consumer<String> processRiderStatus() {
-        return status -> {
-            System.out.println("Received : " + status);
-        };
-    }
 }
